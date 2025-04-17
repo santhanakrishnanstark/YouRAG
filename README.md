@@ -27,9 +27,10 @@ Ask it anything about a video — summaries, key points, definitions, or anythin
 
 Install dependencies:
 
-\`\`\`bash
+
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ---
 
@@ -37,22 +38,23 @@ pip install -r requirements.txt
 
 1. **Clone the repository**
 
-\`\`\`bash
+```bash
 git clone https://github.com/yourusername/yourag.git
 cd yourag
-\`\`\`
+```
+`
 
 2. **Create a `.env` file** with your Hugging Face API key:
 
-\`\`\`env
+```bash
 HUGGINGFACEHUB_API_TOKEN=your_huggingface_api_key_here
-\`\`\`
+```
 
 3. **Run the Streamlit app**
 
-\`\`\`bash
+```bash
 streamlit run main.py
-\`\`\`
+```
 
 ---
 
@@ -67,14 +69,14 @@ streamlit run main.py
 
 ## 📂 Project Structure
 
-\`\`\`text
+```text
 .
 ├── main.py                  # Streamlit app entrypoint
 ├── langchain_helper.py     # RAG + FAISS helper functions
 ├── .env                    # Hugging Face API token (not tracked in Git)
 ├── requirements.txt        # Project dependencies
 ├── README.md               # Project documentation
-\`\`\`
+```
 
 ---
 
@@ -120,8 +122,10 @@ These can be changed in `langchain_helper.py` as needed.
 ## 🧑‍💻 Author
 
 Built with ❤️ by [Santhanakrishnan](https://github.com/santhanakrishnanstark)
+
 Portfolio: [Santhanakrishnan Portfolio](https://sandykrish.netlify.app/)
-Blog: [https://thedailyfrontend.com/]https://thedailyfrontend.com/
+
+Blog: [https://thedailyfrontend.com/](https://thedailyfrontend.com/)
 
 ---
 
